@@ -1,12 +1,28 @@
 # SUI
 
-> SUI FRAMEWORK
+> Security-UI Framework
 
-## 快速开始
+## Feature
 
-1. git clone https://github.com/tangzhirong/sui-core.git
-2. yarn install
-3. yarn start
+- 基于 Antd 二次封装的 React UI 组件框架
+- 提供通用上层组件与模版、种子工程与脚手架、icon 图标库等
+- 适用于中后台项目快速搭建，开箱即用
+
+## 文档地址
+
+- [官网文档](http://43.138.105.171/#/guides/about)
+
+## 使用（详见官方文档）
+
+- 安装：
+
+  `npm install sui-components`
+
+- 使用：
+
+  ```javascript
+  import { Wrapper, Logo, Menu, RouterPage, Avatar } from 'sui-components';
+  ```
 
 ## 目录结构
 
@@ -17,10 +33,6 @@
 - src/menu.config.js 菜单配置
 - src/routerPage.config.js 页面路由配置
 - src/app.js 入口 js 文件
-
-## 文档地址
-
-- [在线文档](http://123.56.61.102/#/guides/about)
 
 ## 发布
 
@@ -34,12 +46,14 @@
 - ~~表单组件 inline 布局优化~~
 - ~~多表单校检~~
 - ~~表单渲染层抽象~~
+- dream-builder 可视化搭建接入
 
 ## 其它
 
 - npm 发布仓库：[sui-components](https://github.com/tangzhirong/sui-components.git)
 - 图标库： [sui-icon](https://github.com/tangzhirong/sui-icons.git)
+- 种子工程：[sui-seed]()
 
 ## ISSUE
 
-- 使用问题可联系 [zhirongtang](wxwork://message/?username=zhirongtang)
+- 使用问题欢迎提 issue [反馈地址](https://github.com/tangzhirong/sui-core/issues)

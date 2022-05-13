@@ -38,7 +38,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "cross-env PUBLIC_URL=/docs node scripts/build.js",
+    "build": "cross-env PUBLIC_URL=/ node scripts/build.js",
     "build:report": "cross-env npm_config_report=true node scripts/build.js",
     "deploy": "node scripts/deploy.js",
     "format": "prettier --config .prettierrc --write 'src/**/*.*'",
